@@ -1,0 +1,837 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+	<!--Titre du QCM-->
+	<question type="category">
+		<category>
+			<text><![CDATA[<infos><name>Le TRS - Ligne de chargement machine 4</name><answernumbering>123</answernumbering><niveau>TERMINALE</niveau><matiere>SCIENCES TECHNOLOGIE</matiere></infos>]]></text>
+		</category>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text><![CDATA[Question 1]]></text>
+		</name>
+		<questiontext format="html">
+			<text><![CDATA[<div style="font-family: Arial; font-size: 13px;">Que représente le temps d'ouverture « To » ?</div>]]></text>
+		</questiontext>
+		<externallink/>
+		<usecase>1</usecase>
+		<defaultgrade>1</defaultgrade>
+		<single>true</single>
+		<answer fraction="100" format="plain_text">
+			<text><![CDATA[Le temps où l'atelier est ouvert]]></text>
+			<feedback>
+				<text><![CDATA[To = temps où l'atelier est ouvert (§2 du cours).]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[Le temps où la machine doit produire]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[Le temps où la machine fonctionne sans panne]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[La durée moyenne entre deux pannes]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text><![CDATA[Question 2]]></text>
+		</name>
+		<questiontext format="html">
+			<text><![CDATA[<div style="font-family: Arial; font-size: 13px;">Quelle est la relation qui donne le temps requis « Tr » ?</div>]]></text>
+		</questiontext>
+		<externallink/>
+		<usecase>1</usecase>
+		<defaultgrade>1</defaultgrade>
+		<single>true</single>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[Tr = To − arrêts subis (pannes)]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[Tr = To + arrêts programmés]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="100" format="plain_text">
+			<text><![CDATA[Tr = To − arrêts programmés hors production (pauses, nettoyage, préventif programmé…)]]></text>
+			<feedback>
+				<text><![CDATA[Tr = To − arrêts programmés hors production. Pannes, réglages et changements de série restent dans Tr.]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[Tr = Tf − arrêts programmés]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text><![CDATA[Question 3]]></text>
+		</name>
+		<questiontext format="html">
+			<text><![CDATA[<div style="font-family: Arial; font-size: 13px;">Un atelier est ouvert 38 h dans la semaine (To = 38 h). Les pauses et nettoyages programmés durent 4 h et la maintenance préventive programmée 2 h. Quel est le temps requis « Tr » ?</div>]]></text>
+		</questiontext>
+		<externallink/>
+		<usecase>1</usecase>
+		<defaultgrade>1</defaultgrade>
+		<single>true</single>
+		<answer fraction="100" format="plain_text">
+			<text><![CDATA[32 h]]></text>
+			<feedback>
+				<text><![CDATA[Tr = 38 − 4 − 2 = 32 h.]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[34 h]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[36 h]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[44 h]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text><![CDATA[Question 4]]></text>
+		</name>
+		<questiontext format="html">
+			<text><![CDATA[<div style="font-family: Arial; font-size: 13px;">Parmi ces arrêts, lequel reste compris dans le temps requis « Tr » et fait donc baisser le temps de fonctionnement « Tf » ?</div>]]></text>
+		</questiontext>
+		<externallink/>
+		<usecase>1</usecase>
+		<defaultgrade>1</defaultgrade>
+		<single>true</single>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[La pause déjeuner de l'équipe]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[Le nettoyage programmé de fin de poste]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[La maintenance préventive programmée au planning]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="100" format="plain_text">
+			<text><![CDATA[La panne d'un capteur]]></text>
+			<feedback>
+				<text><![CDATA[Pannes, attentes et réglages restent dans Tr : ils réduisent Tf. Pauses, nettoyage et préventif programmés sont retirés de To pour obtenir Tr.]]></text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text><![CDATA[Question 5]]></text>
+		</name>
+		<questiontext format="html">
+			<text><![CDATA[<div style="font-family: Arial; font-size: 13px;">Une machine a un temps d'ouverture To = 40 h et un temps requis Tr = 35 h. Quel est son taux de charge « TC » ?</div>]]></text>
+		</questiontext>
+		<externallink/>
+		<usecase>1</usecase>
+		<defaultgrade>1</defaultgrade>
+		<single>true</single>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[12,5 %]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="100" format="plain_text">
+			<text><![CDATA[87,5 %]]></text>
+			<feedback>
+				<text><![CDATA[TC = Tr ÷ To = 35 ÷ 40 = 87,5 %.]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[114,3 %]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[35 %]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text><![CDATA[Question 6]]></text>
+		</name>
+		<questiontext format="html">
+			<text><![CDATA[<div style="font-family: Arial; font-size: 13px;">Quelle est la relation qui donne le temps de fonctionnement « Tf » ?</div>]]></text>
+		</questiontext>
+		<externallink/>
+		<usecase>1</usecase>
+		<defaultgrade>1</defaultgrade>
+		<single>true</single>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[Tf = To − arrêts (pannes, attentes, réglages)]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[Tf = Tr + arrêts (pannes, attentes, réglages)]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="100" format="plain_text">
+			<text><![CDATA[Tf = Tr − arrêts (pannes, attentes, réglages)]]></text>
+			<feedback>
+				<text><![CDATA[Tf = Tr − arrêts (pannes, attentes, réglages).]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[Tf = To − Tr]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text><![CDATA[Question 7]]></text>
+		</name>
+		<questiontext format="html">
+			<text><![CDATA[<div style="font-family: Arial; font-size: 13px;">Ligne de chargement de la machine 4 sur un an : Tr = 3 852 h et 436 h d'arrêts dus aux pannes. Quel est le temps de fonctionnement « Tf » ?</div>]]></text>
+		</questiontext>
+		<externallink/>
+		<usecase>1</usecase>
+		<defaultgrade>1</defaultgrade>
+		<single>true</single>
+		<answer fraction="100" format="plain_text">
+			<text><![CDATA[3 416 h]]></text>
+			<feedback>
+				<text><![CDATA[Tf = 3 852 − 436 = 3 416 h.]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[3 852 h]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[4 288 h]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[436 h]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text><![CDATA[Question 8]]></text>
+		</name>
+		<questiontext format="html">
+			<text><![CDATA[<div style="font-family: Arial; font-size: 13px;">Quelle est la formule de la disponibilité opérationnelle « Do » ?</div>]]></text>
+		</questiontext>
+		<externallink/>
+		<usecase>1</usecase>
+		<defaultgrade>1</defaultgrade>
+		<single>true</single>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[Do = Tr ÷ Tf]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="100" format="plain_text">
+			<text><![CDATA[Do = Tf ÷ Tr]]></text>
+			<feedback>
+				<text><![CDATA[Do = Tf ÷ Tr : part du temps requis où la machine est disponible.]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[Do = Tf ÷ To]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[Do = arrêts ÷ Tr]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text><![CDATA[Question 9]]></text>
+		</name>
+		<questiontext format="html">
+			<text><![CDATA[<div style="font-family: Arial; font-size: 13px;">Machine 4 : Tf = 3 416 h et Tr = 3 852 h. Quelle est la disponibilité opérationnelle « Do » ?</div>]]></text>
+		</questiontext>
+		<externallink/>
+		<usecase>1</usecase>
+		<defaultgrade>1</defaultgrade>
+		<single>true</single>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[11,3 %]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[89,6 %]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[98,1 %]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="100" format="plain_text">
+			<text><![CDATA[88,7 %]]></text>
+			<feedback>
+				<text><![CDATA[Do = 3 416 ÷ 3 852 ≈ 0,887 soit 88,7 %.]]></text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text><![CDATA[Question 10]]></text>
+		</name>
+		<questiontext format="html">
+			<text><![CDATA[<div style="font-family: Arial; font-size: 13px;">Que signifie une disponibilité opérationnelle Do = 88,7 % ?</div>]]></text>
+		</questiontext>
+		<externallink/>
+		<usecase>1</usecase>
+		<defaultgrade>1</defaultgrade>
+		<single>true</single>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[La machine est tombée en panne 88,7 fois dans l'année]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[La machine produit 88,7 % de pièces bonnes]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="100" format="plain_text">
+			<text><![CDATA[Sur 100 h où la machine devait produire, elle était disponible environ 88,7 h]]></text>
+			<feedback>
+				<text><![CDATA[Do = part du temps requis où la machine est disponible.]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[La machine est arrêtée 88,7 % du temps]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text><![CDATA[Question 11]]></text>
+		</name>
+		<questiontext format="html">
+			<text><![CDATA[<div style="font-family: Arial; font-size: 13px;">Do machine 6 : 87,5 % (2011) puis 98,1 % (2012). Do machine 5 : 88,2 % (2011) puis 97,8 % (2012). Do machine 4 : 89,6 % (2011) puis 88,7 % (2012). Que peut-on en déduire pour la machine 4 ?</div>]]></text>
+		</questiontext>
+		<externallink/>
+		<usecase>1</usecase>
+		<defaultgrade>1</defaultgrade>
+		<single>true</single>
+		<answer fraction="100" format="plain_text">
+			<text><![CDATA[Sa disponibilité a baissé et elle est nettement inférieure à celle des machines 5 et 6]]></text>
+			<feedback>
+				<text><![CDATA[La Do de la machine 4 baisse alors que celles des machines 5 et 6 progressent : c'est la moins disponible en 2012.]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[Sa disponibilité s'est améliorée comme celle des autres machines]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[Elle est la machine la plus disponible des trois en 2012]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[Sa disponibilité est stable et équivalente à celle des machines 5 et 6]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text><![CDATA[Question 12]]></text>
+		</name>
+		<questiontext format="html">
+			<text><![CDATA[<div style="font-family: Arial; font-size: 13px;">Les lignes des machines 5 et 6 ont été améliorées et bénéficient d'un suivi rigoureux de maintenance préventive : leur Do est passée d'environ 88 % à 98 %. Quel effet explique cette amélioration ?</div>]]></text>
+		</questiontext>
+		<externallink/>
+		<usecase>1</usecase>
+		<defaultgrade>1</defaultgrade>
+		<single>true</single>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[Le temps d'ouverture To a augmenté]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="100" format="plain_text">
+			<text><![CDATA[Les pannes sont moins nombreuses ou plus courtes, donc Tf augmente]]></text>
+			<feedback>
+				<text><![CDATA[La maintenance agit sur les pannes (fréquence et durée) : moins d'arrêts, donc plus de temps de fonctionnement Tf.]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[La cadence des machines a augmenté]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[Le nombre de pièces bonnes a augmenté]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text><![CDATA[Question 13]]></text>
+		</name>
+		<questiontext format="html">
+			<text><![CDATA[<div style="font-family: Arial; font-size: 13px;">Que représente le TBF (temps de bon fonctionnement) et comment le calcule-t-on ?</div>]]></text>
+		</questiontext>
+		<externallink/>
+		<usecase>1</usecase>
+		<defaultgrade>1</defaultgrade>
+		<single>true</single>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[La durée moyenne d'une panne : TBF = arrêts ÷ nombre de pannes]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[Le temps où la machine doit produire : TBF = To − arrêts programmés]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[La part du temps requis où la machine est disponible : TBF = Tf ÷ Tr]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="100" format="plain_text">
+			<text><![CDATA[La durée moyenne entre deux pannes : TBF = Tf ÷ nombre de pannes]]></text>
+			<feedback>
+				<text><![CDATA[TBF = Tf ÷ nombre de pannes : plus il est grand, plus la machine est fiable.]]></text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text><![CDATA[Question 14]]></text>
+		</name>
+		<questiontext format="html">
+			<text><![CDATA[<div style="font-family: Arial; font-size: 13px;">Machine 4 : Tf = 3 416 h et 198 pannes dans l'année. Quel est le TBF en heures, minutes, secondes ?</div>]]></text>
+		</questiontext>
+		<externallink/>
+		<usecase>1</usecase>
+		<defaultgrade>1</defaultgrade>
+		<single>true</single>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[17 h 25 min 15 s]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[0 h 3 min 29 s]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="100" format="plain_text">
+			<text><![CDATA[17 h 15 min 9 s]]></text>
+			<feedback>
+				<text><![CDATA[TBF = 3 416 ÷ 198 ≈ 17,2525 h, soit 17 h 15 min 9 s (0,2525 h × 60 = 15,15 min ; 0,15 min × 60 = 9 s).]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[57 h 58 min 0 s]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text><![CDATA[Question 15]]></text>
+		</name>
+		<questiontext format="html">
+			<text><![CDATA[<div style="font-family: Arial; font-size: 13px;">Machine 4 : 198 pannes pour un total de 436 h d'arrêts. Quel est le TTR (durée moyenne d'une panne) en heures, minutes, secondes ?</div>]]></text>
+		</questiontext>
+		<externallink/>
+		<usecase>1</usecase>
+		<defaultgrade>1</defaultgrade>
+		<single>true</single>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[2 h 20 min 12 s]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="100" format="plain_text">
+			<text><![CDATA[2 h 12 min 7 s]]></text>
+			<feedback>
+				<text><![CDATA[TTR = 436 ÷ 198 ≈ 2,202 h, soit 2 h 12 min 7 s (0,202 h × 60 ≈ 12,1 min).]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[0 h 27 min 15 s]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[17 h 15 min 9 s]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text><![CDATA[Question 16]]></text>
+		</name>
+		<questiontext format="html">
+			<text><![CDATA[<div style="font-family: Arial; font-size: 13px;">Une machine dont les seuls arrêts sont des pannes a un TBF = 16 h et un TTR = 4 h. Quelle est sa disponibilité opérationnelle, avec Do = TBF ÷ (TBF + TTR) ?</div>]]></text>
+		</questiontext>
+		<externallink/>
+		<usecase>1</usecase>
+		<defaultgrade>1</defaultgrade>
+		<single>true</single>
+		<answer fraction="100" format="plain_text">
+			<text><![CDATA[80 %]]></text>
+			<feedback>
+				<text><![CDATA[Do = 16 ÷ (16 + 4) = 16 ÷ 20 = 80 %.]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[20 %]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[25 %]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[64 %]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text><![CDATA[Question 17]]></text>
+		</name>
+		<questiontext format="html">
+			<text><![CDATA[<div style="font-family: Arial; font-size: 13px;">Quelle action permet de raccourcir le TTR (durée moyenne d'une panne) ?</div>]]></text>
+		</questiontext>
+		<externallink/>
+		<usecase>1</usecase>
+		<defaultgrade>1</defaultgrade>
+		<single>true</single>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[Remplacer un roulement avant sa fin de vie]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[Allonger les pauses de l'équipe]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[Augmenter le temps d'ouverture To]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="100" format="plain_text">
+			<text><![CDATA[Avoir les pièces de rechange en stock et des procédures de dépannage claires]]></text>
+			<feedback>
+				<text><![CDATA[Pièces en stock et procédures claires raccourcissent le TTR ; la maintenance préventive, elle, allonge le TBF.]]></text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text><![CDATA[Question 18]]></text>
+		</name>
+		<questiontext format="html">
+			<text><![CDATA[<div style="font-family: Arial; font-size: 13px;">Dans le cours, que mesure le ratio de maintenance (indicateur complémentaire, hors norme) ?</div>]]></text>
+		</questiontext>
+		<externallink/>
+		<usecase>1</usecase>
+		<defaultgrade>1</defaultgrade>
+		<single>true</single>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[Le nombre de pannes par heure de fonctionnement]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="100" format="plain_text">
+			<text><![CDATA[La part du temps d'ouverture passée en maintenance : (préventif + correctif) ÷ To]]></text>
+			<feedback>
+				<text><![CDATA[Ratio de maintenance = (préventif + correctif) ÷ To.]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[La part du temps requis où la machine est disponible]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[Le rapport entre pièces bonnes et pièces produites]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text><![CDATA[Question 19]]></text>
+		</name>
+		<questiontext format="html">
+			<text><![CDATA[<div style="font-family: Arial; font-size: 13px;">Que représente le temps utile « Tu » ?</div>]]></text>
+		</questiontext>
+		<externallink/>
+		<usecase>1</usecase>
+		<defaultgrade>1</defaultgrade>
+		<single>true</single>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[Tu = pièces produites × Tcr (pièces bonnes et mauvaises)]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[Tu = Tr − arrêts]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="100" format="plain_text">
+			<text><![CDATA[Tu = pièces bonnes × Tcr : le temps réellement utile à produire des pièces bonnes]]></text>
+			<feedback>
+				<text><![CDATA[Tu = pièces bonnes × Tcr (Tcr = temps de cycle de référence). Tn = pièces produites × Tcr, donc Tn − Tu correspond aux rebuts.]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[Tu = To − Tr]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text><![CDATA[Question 20]]></text>
+		</name>
+		<questiontext format="html">
+			<text><![CDATA[<div style="font-family: Arial; font-size: 13px;">Une machine a un temps de fonctionnement Tf = 30 h et un temps net Tn = 24 h. Quel est son taux de performance « TP » (TP = Tn ÷ Tf) ?</div>]]></text>
+		</questiontext>
+		<externallink/>
+		<usecase>1</usecase>
+		<defaultgrade>1</defaultgrade>
+		<single>true</single>
+		<answer fraction="100" format="plain_text">
+			<text><![CDATA[80 %]]></text>
+			<feedback>
+				<text><![CDATA[TP = Tn ÷ Tf = 24 ÷ 30 = 80 % : la machine tourne à 80 % de la cadence de référence.]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[125 %]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[20 %]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[6 %]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text><![CDATA[Question 21]]></text>
+		</name>
+		<questiontext format="html">
+			<text><![CDATA[<div style="font-family: Arial; font-size: 13px;">Une machine a une disponibilité Do = 88,7 %, un taux de performance TP = 85 % et un taux de qualité TQ = 98 %. Quel est son TRS ?</div>]]></text>
+		</questiontext>
+		<externallink/>
+		<usecase>1</usecase>
+		<defaultgrade>1</defaultgrade>
+		<single>true</single>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[90,6 %]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="100" format="plain_text">
+			<text><![CDATA[73,9 %]]></text>
+			<feedback>
+				<text><![CDATA[TRS = Do × TP × TQ = 0,887 × 0,85 × 0,98 ≈ 73,9 %.]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[88,7 %]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[98,0 %]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text><![CDATA[Question 22]]></text>
+		</name>
+		<questiontext format="html">
+			<text><![CDATA[<div style="font-family: Arial; font-size: 13px;">Une machine a un temps utile Tu = 28 h, un temps requis Tr = 35 h et un temps d'ouverture To = 40 h. Quelles sont les valeurs du TRS (Tu ÷ Tr) et du TRG (Tu ÷ To) ?</div>]]></text>
+		</questiontext>
+		<externallink/>
+		<usecase>1</usecase>
+		<defaultgrade>1</defaultgrade>
+		<single>true</single>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[TRS = 70 % ; TRG = 80 %]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[TRS = 80 % ; TRG = 87,5 %]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[TRS = 87,5 % ; TRG = 70 %]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="100" format="plain_text">
+			<text><![CDATA[TRS = 80 % ; TRG = 70 %]]></text>
+			<feedback>
+				<text><![CDATA[TRS = 28 ÷ 35 = 80 % ; TRG = 28 ÷ 40 = 70 % (le TRG compte les arrêts programmés comme des pertes).]]></text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text><![CDATA[Question 23]]></text>
+		</name>
+		<questiontext format="html">
+			<text><![CDATA[<div style="font-family: Arial; font-size: 13px;">Sur 198 défaillances de la ligne de la machine 4 : défardeleuse 141, enrouleuse de câble 33, convoyeurs 16, dépileur 5, chariot AGV 3. Pourquoi le service maintenance se penche-t-il d'abord sur la défardeleuse et l'enrouleuse ?</div>]]></text>
+		</questiontext>
+		<externallink/>
+		<usecase>1</usecase>
+		<defaultgrade>1</defaultgrade>
+		<single>true</single>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[Parce que ce sont les sous-systèmes les plus récents]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="100" format="plain_text">
+			<text><![CDATA[Parce qu'elles cumulent environ 88 % des défaillances (174 sur 198)]]></text>
+			<feedback>
+				<text><![CDATA[141 + 33 = 174 défaillances sur 198, soit environ 88 % du total : c'est là que le gain sur les pannes sera le plus important.]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[Parce qu'elles ont le plus petit nombre de défaillances]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+		<answer fraction="0" format="plain_text">
+			<text><![CDATA[Parce que les autres sous-systèmes ne nécessitent pas de maintenance]]></text>
+			<feedback>
+				<text><![CDATA[]]></text>
+			</feedback>
+		</answer>
+	</question>
+</quiz>
